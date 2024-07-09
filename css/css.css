@@ -41,6 +41,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
 }
 
 .navbar .logo a {
@@ -78,6 +79,8 @@ section#hero {
     justify-content: center;
     text-align: center;
     color: white;
+    position: absolute;
+    left: 45%;
 }
 
 /* .div{
@@ -90,9 +93,10 @@ section#hero {
     width: 150px;
 } */
 .container {
-    width: 700px;
-    height: 300px;
+    width: 100%;
+    height: 60px;
     margin: 200px auto;
+
 }
 
 .glass {
@@ -101,5 +105,25 @@ section#hero {
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    /* border-radius: 10px; */
+    position: absolute;
+    top: -31%;
+}
+
+.containerr {
+    width: 400px;
+    height: 200px;
+    margin: 200px auto;
+
+}
+
+.glasss {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 10px;
+    position: absolute;
+    left: 36%;
 }

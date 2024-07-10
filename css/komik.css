@@ -72,15 +72,25 @@ header {
     cursor: pointer;
 }
 section#hero {
-    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     color: white;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    color: white;
+    /* font-size: 1.5rem; */
+    /* font-weight: bold; */
+    width: 900px;
     position: absolute;
-    left: 45%;
+    left: 15%;
 }
 
 /* .div{
@@ -111,19 +121,28 @@ section#hero {
 }
 
 .containerr {
-    width: 400px;
-    height: 200px;
+    width: 1200px;
+    height: 300px;
     margin: 200px auto;
 
 }
 
 .glasss {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 10px;
     position: absolute;
-    left: 36%;
+    left: 3%;
+}
+
+img {
+    align-items: center;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+    top: 5%;
 }

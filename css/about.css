@@ -6,16 +6,11 @@
 }
 
 body{
-    height: 100vh;
-    background-color: #030514;
-    background-image: url('https://images.alphacoders.com/133/thumb-1920-1330483.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 
 .image{
-    height: calc(70vh - 60px);
+    height: calc(60vh - 70px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,23 +19,113 @@ body{
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 60px;
 }
+
+.bc1{
+    /* padding-top: 1rem; */
+    background-color: orange;  
+}
+
+
+.from{
+    
+/* height: calc(65vh - 30px); */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+}
+
+.from2{
+    width: 340px;
+    height: 400px;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.from3{
+    /* height: calc(65vh - 30px); */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: orange;
+}
+
+.copyright{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+   
+}
+
+/* .copyright2{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 20%;
+    background: rgb(255, 217, 0);
+} */
+
+.shadow{
+    width: 900px;;
+    background: #be7676;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 219, 119, 0.18);
+}
+
 
 li{
     list-style: none;
 }
 
+h2{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h4{
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.dipelajari{
+    
+        background: orange;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 219, 119, 0.18);
+}
+
 a{
     text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
 }
 
 a:hover{
-    color: orange;
+    color: #ffa500;
 }
 /* HEADER */
 header{
@@ -48,15 +133,26 @@ header{
     padding: 0 2rem;
 }
 
+svg{
+    width: 100%;
+    height: auto;  
+}
+
 .navbar{
     width: 100%;
-    height: 60px;
+    height: 80px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color:transparent;
 }
+
+.navbar2{
+    background-color: #000000;
+}
+
 
 .navbar .logo a{
     font-size: 1.5rem;
@@ -131,23 +227,25 @@ header{
 }
 /* hero */
 section#hero{
-    height: calc(20vh - px);
+    height: calc(100vh - px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #000000;
     /* position: absolute;
     top: 50%;
     left: 35%; */
 }
 
 #hero h1{
-    /* font-weight: bold; */
-    font-size: 2.6rem;
-    margin-bottom: 2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
+ 
 
 /* reponsive design */
 @media(max-width: 992px){

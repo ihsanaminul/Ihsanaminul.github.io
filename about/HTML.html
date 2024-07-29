@@ -19,10 +19,11 @@
             <h1>Apa Itu HTML? Fungsi dan Cara Kerja HTML</h1>
         </section>
     </main>
+
         <div class="img">
             <img src="https://cdn3d.iconscout.com/3d/free/thumb/html-5728485-4781249.png" style="width: 380px;">
         </div>
-    <br><br><br>
+        <br><br><br>
     
     <div class="container-md">
         <div class="row justify-content-center fs-5 mt-4" style="margin: 0;">
@@ -37,12 +38,74 @@
 
          <br><br><br><br><br>
             <h1>Pengertian HTML dan Sejarahnya</h1>
+
         <div class="col-md-6">
             <p>Hypertext Markup Language atau HTML adalah bahasa markup standar yang digunakan untuk membuat halaman website dan aplikasi web. Sejarah HTML diciptakan oleh Tim Berners-Lee, seorang ahli fisika di lembaga penelitian CERN yang berlokasi di Swiss.</p>
             <p>Versi pertama HTML dirilis oleh Tim Berners Lee pada tahun 1991, yang memiliki 18 tag. Sejak saat itu, setiap kali ada versi barunya, pasti akan selalu ada tag dan attribute (tag modifier) yang juga baru.</p>
-            Ketika bekerja dengan bahasa markup ini, Anda menggunakan struktur kode sederhana (tag dan attribute) untuk mark up halaman website. Misalnya, Anda membuat sebuah paragraf dengan menempatkan enclosed text di antara tag pembuka <em><strong>P</strong></em>  dan tag penutup <em><strong>/P</strong></em>.
+            <p>Ketika bekerja dengan bahasa markup ini, Anda menggunakan struktur kode sederhana (tag dan attribute) untuk mark up halaman website. Misalnya, Anda membuat sebuah paragraf dengan menempatkan enclosed text di antara tag pembuka <em><strong>P</strong></em>  dan tag penutup <em><strong>/P</strong></em>. </p> 
         </div>
     </div>
 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,224L80,229.3C160,235,320,245,480,213.3C640,181,800,107,960,85.3C1120,64,1280,96,1360,112L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,224L80,229.3C160,235,320,245,480,213.3C640,181,800,107,960,85.3C1120,64,1280,96,1360,112L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+
+
+
+    <div class="container-md">
+    <h1>Bagaimana Cara Kerja HTML?</h1>
+    <div class="col-md-6">
+        <p>Ekstensi file HTML adalah .html atau .htm, yang bisa dilihat dengan mengunakan web browser apa pun (seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan merender kontennya sehingga user internet bisa melihat dan membacanya.</p>
+        <p>Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, halaman beranda, ‘Tentang Kami’, halaman kontak memiliki dokumennya sendiri-sendiri.</p>
+        <p>Masing-masing halaman tersebut terdiri atas serangkaian tags (bisa disebut juga elements), yang tersusun untuk membentuk sebuah halaman website. Tag tersebut membuat hierarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan block konten lainnya.</p>
+        <p>Sebagian besar elemen bahasa markup ini memiliki tag pembuka dan penutup yang menggunakan syntax <em><strong>tag /tag</strong></em>.</p>
+    </div>
+
+
+    <br><br><br>
+    <h1>Pengertian Tag HTML dan Fungsinya</h1>
+    <div class="col-md-7">
+        <p>Tag HTML memiliki dua tipe utama: <strong>block-level</strong> dan <strong>inline tags</strong>.</p>
+        <ol>
+            <li>Elemen block-level memakai semua ruang yang tersedia dan selalu membuat line baru di dalam dokumen. Contoh dari tag block adalah heading dan paragraf.</li>
+            <br>
+            <li>Elemen inline hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di halaman. Biasanya elemen ini akan memformat isi konten dari elemen block-level. Contoh dari tag inline adalah link dan emphasized strings.</li>
+        </ol>
+
+
+        <br>
+        <h2>Tag Block-Level</h2>
+        <p>Tiga tag block-level yang harus dimiliki oleh setiap dokumen HTML adalah <strong>< html >, < head >,</strong>dan <strong>< body></strong>.</p>
+
+        <div class="col-md-8">
+            <ol>
+                <li>Tag <strong>< html> < /html></strong> adalah elemen level tertinggi yang menyertakan setiap halaman HTML.</li>
+                <br>
+                <li>Tag <strong>< head> < /head></strong> menyimpan informasi meta, seperti judul dan charset halaman.</li>
+                <br>
+                <li>Tag <strong>< body> < /body></strong> melampirkan semua konten yang muncul pada suatu halaman.</li>
+            </ol>
+        </div>
+            <br>
+            <ul>
+                <li>Heading memiliki 6 level. Level tersebut bervariasi, mulai dari <strong>< h1>< /h1> </strong>sampai <strong>< h6>< /h6></strong>, di mana h1 merupakan level heading tertinggi dan h6 adalah level terendah. Paragraf dibuka dan ditutup dengan tag <strong>< p>< /p></strong>, sedangkan blockquote menggunakan tag <strong>< blockquote>< /blockquote></strong>.</li>
+                <br>
+                <li>Division merupakan bagian konten yang lebih besar dan biasanya terdiri atas beberapa paragraf, gambar, kadang-kadang blockquote, dan elemen lebih kecil lainnya. Kita bisa membuat mark up dengan menggunakan tag <strong>< div>< /div>.</strong> Di dalam elemen div juga terdapat tag div lainnya.                </li>
+                <br>
+                <li>Anda juga bisa menggunakan tag <strong>< ol>< /ol> </strong>untuk list yang berurutan dan <strong>< ul>< /ul></strong> untuk list yang tidak berurutan. Masing-masing list item harus dibuka dan ditutup dengan tag <strong>< li>< /li>.</strong> Sebagai contoh, di bawah ini  adalah tampilan dasar daftar tidak berurutan dalam HTML</li>
+            </ul>
+    </div>
+    </div>
+    <br>
+
+
+
+
+    <form>
+        <div class="form">
+            <input type="button" class="btn btn-info" value="Back" onclick="history.go(-1)">
+        </div>
+       </form> 
+       <br><br><br><br>
 </body>
 </html>
